@@ -13,6 +13,7 @@ export const ContactListLi = styled.li`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-align: left;
   gap: 20px;
 `;
 
