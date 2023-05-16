@@ -6,7 +6,7 @@ export const ContactListUl = styled.ul`
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: var(--border-margin-padding);
+  gap: 10px;
 `;
 
 export const ContactListLi = styled.li`
