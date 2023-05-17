@@ -1,5 +1,5 @@
-export const getContacts = state => state.phonebook.contacts.items;
-export const getContactFilter = state => state.phonebook.filter;
-export const getContactIsLoading = state => state.phonebook.contacts.isLoading;
-export const getContactError = state => state.phonebook.contacts.error;
-export const getContactsArray = state => state.phonebook.contacts;
+export const selectContacts = state => state.phonebook.contacts.items;
+export const selectFilter = state => state.phonebook.filter;
+export const selectIsLoading = state => state.phonebook.contacts.isLoading;
+export const selectError = state => state.phonebook.contacts.error;
+export const selectArray = state => state.phonebook.contacts;
